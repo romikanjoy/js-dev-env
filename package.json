@@ -2,8 +2,7 @@
   "name": "js-dev-env",
   "version": "1.0.0",
   "description": "Javascript Development Environment",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/romikanjoy/js-dev-env.git"
@@ -13,5 +12,9 @@
   "bugs": {
     "url": "https://github.com/romikanjoy/js-dev-env/issues"
   },
-  "homepage": "https://github.com/romikanjoy/js-dev-env#readme"
+  "homepage": "https://github.com/romikanjoy/js-dev-env#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "open": "0.0.5"
+  }
 }

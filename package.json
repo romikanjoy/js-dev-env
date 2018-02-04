@@ -20,14 +20,23 @@
     "url": "https://github.com/romikanjoy/js-dev-env/issues"
   },
   "homepage": "https://github.com/romikanjoy/js-dev-env#readme",
+  "dependencies": {
+    "numeral": "^2.0.6"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
+    "css-loader": "^0.28.9",
     "express": "^4.16.2",
     "localtunnel": "^1.8.3",
     "npm-run-all": "^4.1.2",
     "nsp": "^3.1.0",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-hot-middleware": "^2.21.0"
   }
 }
